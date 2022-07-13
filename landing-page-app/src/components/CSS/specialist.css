@@ -12,11 +12,6 @@
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  background-image: url("../CSS/Img/specialist-1.jpg");
-}
-
-.specialist-container:nth-of-type(odd) > .profile {
-  background-image: url("../CSS/Img/specialist-2.jpg");
 }
 
 .specialist-description {
