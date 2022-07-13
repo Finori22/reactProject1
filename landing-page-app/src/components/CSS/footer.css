@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4e4e4e;
+  height: 71px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-container > h2 {
+  font-size: var(--mainFontSize);
+  font-weight: 700;
+}

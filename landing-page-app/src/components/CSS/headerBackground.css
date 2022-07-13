@@ -1,0 +1,60 @@
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-image: url("./Img/Europe.jpg");
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 50px);
+  color: white;
+}
+
+.shadow > .container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.shadow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 40px;
+}
+
+.header-content > h1 {
+  font-size: var(--titleFontSize);
+}
+
+.offer-button {
+  background: transparent;
+  width: 160px;
+  height: 40px;
+  padding: 5px 30px;
+  border: 3px solid #fff;
+  color: white;
+  transition: 1s;
+  font-weight: 700;
+  font-size: var(--mainFontSize);
+}
+
+.offer-button:hover {
+  background: white;
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

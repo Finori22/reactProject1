@@ -1,0 +1,19 @@
+.main-section {
+  padding: 0 94px;
+  margin: 0 auto 10% auto;
+}
+
+.title-main {
+  padding: 50px 0;
+  font-size: var(--titleFontSize);
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 960px;
+  gap: 40px;
+  padding: 20px;
+}

@@ -1,0 +1,31 @@
+.offers-section {
+  background: #405d78;
+  height: 80vh;
+  width: 100%;
+}
+
+.offers-section-container {
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.offers-title {
+  font-size: 36px;
+  padding-top: 50px;
+}
+
+.offers-display {
+  display: flex;
+
+  margin: 50px 12.5% 0 12.5%;
+  flex-wrap: wrap;
+}
+.offer:hover {
+  transform: scale(1.05);
+}
+.offer-content-wrapper > h2 {
+  font-size: var(--offerFontSize);
+  font-weight: bold;
+}

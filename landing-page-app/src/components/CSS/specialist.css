@@ -1,0 +1,43 @@
+.specialist-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 30%;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("../CSS/Img/specialist-1.jpg");
+}
+
+.specialist-container:nth-of-type(odd) > .profile {
+  background-image: url("../CSS/Img/specialist-2.jpg");
+}
+
+.specialist-description {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+}
+
+.specialist-description > h2 {
+  font-size: var(--mainFontSize);
+  font-weight: bold;
+}
+
+.specialist-container:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  height: 30%;
+}
+
+.specialist-container:nth-of-type(even) > .specialist-description {
+  text-align: right;
+}
